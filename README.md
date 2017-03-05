@@ -1,6 +1,6 @@
 # JHDiamondSquare
 
-[![CI Status](http://img.shields.io/travis/git status/JHDiamondSquare.svg?style=flat)](https://travis-ci.org/git status/JHDiamondSquare)
+[![CI Status](http://img.shields.io/travis/JaredHalpern/JHDiamondSquare.svg?style=flat)](https://travis-ci.org/git status/JHDiamondSquare)
 [![Version](https://img.shields.io/cocoapods/v/JHDiamondSquare.svg?style=flat)](http://cocoapods.org/pods/JHDiamondSquare)
 [![License](https://img.shields.io/cocoapods/l/JHDiamondSquare.svg?style=flat)](http://cocoapods.org/pods/JHDiamondSquare)
 [![Platform](https://img.shields.io/cocoapods/p/JHDiamondSquare.svg?style=flat)](http://cocoapods.org/pods/JHDiamondSquare)
