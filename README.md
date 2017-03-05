@@ -21,7 +21,7 @@ The two main class methods are:
 
 `+(NSArray *)diamondSquare:(long)seed gridSize:(NSInteger)size initialHeight:(CGFloat)initialHeight;`
 
-Calling `NSArray *heightMap = [JHDiamondSquare diamondSquare:1 gridSize:4];` where the seed (used for deterministic noise introduced to each point) is `1` and the grid size is `2^4 + 1`. This method will use a default `initialHeight` of `1000`.
+Calling `NSArray *heightMap = [JHDiamondSquare diamondSquare:1 gridSize:4];` where the seed (used for deterministic noise introduced to each point) is `1` and the grid dimensions are 2^4 + 1, or 17 width and 17 height. This method will use a default `initialHeight` of `1000`.
 
 Using `NSArray *heightMap = [JHDiamondSquare diamondSquare:1 gridSize:4 initialHeight:200];` will allow the user to specify an initial height of `200`.
 
