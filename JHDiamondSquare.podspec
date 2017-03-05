@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'JHDiamondSquare'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of JHDiamondSquare.'
+  s.summary          = 'An iterative Objective-C implementation of the diamond square algorithm.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,15 +18,15 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+An iterative Objective-C implementation of the diamond square algorithm. This technique is useful for generating tessellated 2D height maps to be used in modeling a cloudy sky, smokey air, or terrain.
                        DESC
 
-  s.homepage         = 'https://github.com/git status/JHDiamondSquare'
+  s.homepage         = 'https://github.com/JaredHalpern/JHDiamondSquare'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'git status' => 'jareeedo@gmail.com' }
-  s.source           = { :git => 'https://github.com/git status/JHDiamondSquare.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'Jared Halpern' => 'jareeedo@gmail.com' }
+  s.source           = { :git => 'https://github.com/JaredHalpern/JHDiamondSquare.git', :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/jaredehalpern'
 
   s.ios.deployment_target = '8.0'
 

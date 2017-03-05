@@ -22,7 +22,7 @@ pod "JHDiamondSquare"
 
 ## Author
 
-git status, jareeedo@gmail.com
+Jared Halpern, jareeedo@gmail.com
 
 ## License
 

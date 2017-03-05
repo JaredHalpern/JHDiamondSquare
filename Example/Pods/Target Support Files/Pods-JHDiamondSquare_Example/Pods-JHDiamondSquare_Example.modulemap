@@ -1,0 +1,6 @@
+framework module Pods_JHDiamondSquare_Example {
+  umbrella header "Pods-JHDiamondSquare_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

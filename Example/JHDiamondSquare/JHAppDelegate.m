@@ -2,8 +2,7 @@
 //  JHAppDelegate.m
 //  JHDiamondSquare
 //
-//  Created by git status on 03/05/2017.
-//  Copyright (c) 2017 git status. All rights reserved.
+//  Copyright (c) 2017 Jared Halpern. All rights reserved.
 //
 
 #import "JHAppDelegate.h"

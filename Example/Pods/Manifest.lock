@@ -1,0 +1,16 @@
+PODS:
+  - JHDiamondSquare (0.1.0)
+
+DEPENDENCIES:
+  - JHDiamondSquare (from `../`)
+
+EXTERNAL SOURCES:
+  JHDiamondSquare:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JHDiamondSquare: 7c5559cd9f5282afaa91f5f03f604c6d6995c9e6
+
+PODFILE CHECKSUM: c2fd17f2ba996dcff54499f9696fdf4012212d46
+
+COCOAPODS: 1.2.0
