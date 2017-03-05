@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JHDiamondSquare_Example' do
+  pod 'JHDiamondSquare', :path => '../'
+
+  target 'JHDiamondSquare_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
