@@ -25,8 +25,8 @@ static const CGFloat kCornerHeightValue = 1000.0f;
     // Seed the corners of the grid
     grid[0][0] = grid[0][GRID_SIZE-1] = grid[GRID_SIZE-1][0] = grid[GRID_SIZE-1][GRID_SIZE-1] = @(initialHeight);
     
-    // Use for range: -halfSeedValue through +halfSeedValue
-    CGFloat halfSeedValue = initialHeight / 2.0f;
+    // Use for range: -halfHeightValue through +halfHeightValue
+    CGFloat halfHeightValue = initialHeight / 2.0f;
     
     // deterministic seeded pseudo random number generator
     srand48(seed);
@@ -50,7 +50,7 @@ static const CGFloat kCornerHeightValue = 1000.0f;
                 avgCorners /= (NSInteger)4;
 
                 // Set center to average + boxed random element
-                NSInteger randomFactor = drand48() * (2 * halfSeedValue) - halfSeedValue;
+                NSInteger randomFactor = drand48() * (2 * halfHeightValue) - halfHeightValue;
                 grid[x + halfSideLength][y + halfSideLength] = @(avgCorners + randomFactor);
             }
         }
@@ -66,7 +66,7 @@ static const CGFloat kCornerHeightValue = 1000.0f;
                 [grid[x][(y - halfSideLength + GRID_SIZE - 1) % (GRID_SIZE - 1)] integerValue];
                 
                 avgDiamondCenter /= (NSInteger)4;
-                NSInteger randomFactor = drand48() * (2 * halfSeedValue) - halfSeedValue;
+                NSInteger randomFactor = drand48() * (2 * halfHeightValue) - halfHeightValue;
                 grid[x][y] = @(avgDiamondCenter + randomFactor);
                 
                 // Wrap values on the far edges
@@ -80,7 +80,7 @@ static const CGFloat kCornerHeightValue = 1000.0f;
                 }
             }
         }
-        halfSeedValue /= 2.0f;
+        halfHeightValue /= 2.0f;
     }
     return grid;
 }
