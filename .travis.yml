@@ -4,6 +4,8 @@
 
 osx_image: xcode8.2
 language: objective-c
+notifications:
+  email: false
 # cache: cocoapods
 # podfile: Example/Podfile
 # before_install:
