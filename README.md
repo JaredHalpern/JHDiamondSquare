@@ -33,6 +33,8 @@ http://www.paulboxley.com/blog/2011/03/terrain-generation-mark-one
 
 __Inspired by and with guidance from:__
 
+https://en.wikipedia.org/wiki/Diamond-square_algorithm
+
 http://www.gameprogrammer.com/fractal.html#diamond
 
 http://stackoverflow.com/questions/2755750/diamond-square-algorithm
