@@ -60,10 +60,10 @@ static const CGFloat kCornerHeightValue = 1000.0f;
             for (NSInteger y = (x + halfSideLength) % sideLength; y < GRID_SIZE-1; y += sideLength) {
                 
                 NSInteger avgDiamondCenter =
-                [grid[(x - halfSideLength + GRID_SIZE - 1) % (GRID_SIZE - 1)][y] integerValue] +
-                [grid[(x + halfSideLength) % (GRID_SIZE - 1)][y] integerValue] +
-                [grid[x][(y + halfSideLength) % (GRID_SIZE - 1)] integerValue] +
-                [grid[x][(y - halfSideLength + GRID_SIZE - 1) % (GRID_SIZE - 1)] integerValue];
+                [grid[(x - halfSideLength + GRID_SIZE - 1) % (GRID_SIZE - 1)][y] integerValue] +    // North
+                [grid[(x + halfSideLength) % (GRID_SIZE - 1)][y] integerValue] +                    // South
+                [grid[x][(y + halfSideLength) % (GRID_SIZE - 1)] integerValue] +                    // West
+                [grid[x][(y - halfSideLength + GRID_SIZE - 1) % (GRID_SIZE - 1)] integerValue];     // East
                 
                 avgDiamondCenter /= (NSInteger)4;
                 NSInteger randomFactor = drand48() * (2 * halfHeightValue) - halfHeightValue;
