@@ -60,7 +60,7 @@ pod "JHDiamondSquare"
 
 ## Author
 
-Jared Halpern, jareeedo@gmail.com
+Jared Halpern
 
 ## License
 
